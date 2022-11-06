@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+
+	<body>
+		<h1>Loop & Array</h1>
+		<script>
+			var coworkers = ['egoing', 'leezche', 'duru', 'taeho', 'hycho'];
+		</script>
+		
+		<h2>Co workers</h2>
+		<ul>
+			<script>
+				var i = 0;
+				while(i < coworkers.length){
+					document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</li>');	
+                    i = i + 1;	
+				}
+                // document.write('<li><a href="http://a.com/hycho">hycho</li>');
+			</script>
+		</ul>
+        <!-- <a href="http://a.com/hycho">hycho</a> -->
+	</body>
+</html>
